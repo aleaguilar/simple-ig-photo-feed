@@ -1,0 +1,56 @@
+body {
+    background: #BDBDBD;
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background: white;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.feed {
+    width: 600px;
+    margin: auto;
+}
+
+div .post {
+    background: white;
+    margin-top: 50px;
+}
+
+div .post:last-child {
+    margin-bottom: 50px;
+}
+
+.post-header div {
+    padding: 15px 0px 15px 10px;
+    display: inline-block;
+    width: 75%;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.post-header span {
+    padding: 15px 10px 15px 0px;
+    display: inline-block;
+    width: 16%;
+    color: #BDBDBD;
+    text-align: right;
+}
+
+.post-photo {
+    width: 100%;
+}
+
+.post-caption {
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
